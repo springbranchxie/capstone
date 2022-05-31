@@ -1,0 +1,168 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 75115500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Retail home Page",
+            "match": {
+              "location": "step.definition.HomeStepDef.userIsOnRuser_is_on_retail_home_pageetailHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 148630800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on Desktops tab",
+            "match": {
+              "location": "step.definition.DesktopsStepDef.user_click_on_Destops_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 490793000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click on Show all desktops",
+            "match": {
+              "location": "step.definition.DesktopsStepDef.user_click_on_Show_all_desktops()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-30T14:23:05.762Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3311736000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definition.Initializer.beforeHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "User add a review to Canon EOS 5D item in Desktops tab",
+        "description": "",
+        "id": "desktops;user-add-a-review-to-canon-eos-5d-item-in-desktops-tab;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4195446600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definition.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4124417500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User click on Canon EOS 5D item",
+            "match": {
+              "location": "step.definition.DesktopsStepDef.user_click_on_canon_eos_5d_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3101394600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User click on write a review link",
+            "match": {
+              "location": "step.definition.DesktopsStepDef.user_click_on_write_a_review_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3258439400,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user fill the review information with below information",
+            "match": {
+              "location": "step.definition.DesktopsStepDef.user_fill_the_review_information_with_below_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3066121800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User click on Continue Button",
+            "match": {
+              "location": "step.definition.DesktopsStepDef.user_click_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4054482800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User should see a message with ‘Thank you for your review. It has been submitted to the webmaster for approval.”",
+            "match": {
+              "location": "step.definition.DesktopsStepDef.user_should_see_a_message_with_thank_you_for_your_review_it_has_been_submitted_to_the_webmaster_for_approval()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestAllDesktops"
+          },
+          {
+            "name": "@AddReview"
+          }
+        ]
+      }
+    ],
+    "name": "Desktops",
+    "description": "",
+    "id": "desktops",
+    "keyword": "Feature",
+    "uri": "classpath:feature/Desktops.feature",
+    "tags": [
+      {
+        "name": "@TestAllDesktops",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
