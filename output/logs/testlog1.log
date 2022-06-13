@@ -632,3 +632,133 @@
 2022-05-30 10:23:23,415 [main] INFO .\src\test\resources\input\log4j.properties - User click on Continue Button
 2022-05-30 10:23:27,471 [main] INFO .\src\test\resources\input\log4j.properties - User should see a message with ‘Thank you for your review. It has been submitted to the webmaster for approval.”
 2022-05-30 10:23:31,669 [main] INFO .\src\test\resources\input\log4j.properties - the scenarioUser add a review to Canon EOS 5D item in Desktops tab PASSED
+2022-06-04 19:00:17,569 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioAdd and Remove a Mac book from Cartstarted
+2022-06-04 19:00:22,010 [main] INFO .\src\test\resources\input\log4j.properties - User click on Laptop &NoteBook tab
+2022-06-04 19:00:22,405 [main] INFO .\src\test\resources\input\log4j.properties - User click on Show all Laptop &NoteBook option
+2022-06-04 19:00:26,773 [main] INFO .\src\test\resources\input\log4j.properties - User click on MacBook  item
+2022-06-04 19:00:29,865 [main] INFO .\src\test\resources\input\log4j.properties - User click on add to Cart button
+2022-06-04 19:00:32,915 [main] INFO .\src\test\resources\input\log4j.properties - User should see a message ‘Success: You have added MacBook to your shopping cart!’
+2022-06-04 19:00:35,959 [main] INFO .\src\test\resources\input\log4j.properties - User should see ‘one item’ showed to the cart
+2022-06-04 19:00:39,043 [main] INFO .\src\test\resources\input\log4j.properties - User click on cart option
+2022-06-04 19:00:42,117 [main] INFO .\src\test\resources\input\log4j.properties - user click on red X button to remove the item from cart
+2022-06-04 19:00:45,157 [main] INFO .\src\test\resources\input\log4j.properties - item should be removed and cart should show ‘no item’
+2022-06-04 19:00:49,438 [main] INFO .\src\test\resources\input\log4j.properties - the scenarioAdd and Remove a Mac book from Cart PASSED
+2022-06-09 19:35:32,347 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioEdit your affiliate information from Cheque payment method to Bank Transferstarted
+2022-06-09 19:35:36,459 [main] INFO .\src\test\resources\input\log4j.properties - User click  on MyAccount
+2022-06-09 19:35:38,804 [main] INFO .\src\test\resources\input\log4j.properties - user click on Login
+2022-06-09 19:35:43,028 [main] INFO .\src\test\resources\input\log4j.properties - user enter username and password
+2022-06-09 19:35:45,480 [main] INFO .\src\test\resources\input\log4j.properties - user click on Login button
+2022-06-09 19:35:47,586 [main] INFO .\src\test\resources\input\log4j.properties - user should be logged into MyAccount dashboard
+2022-06-09 19:35:49,984 [main] INFO .\src\test\resources\input\log4j.properties - User click on ‘Edit your affiliate informationlink
+2022-06-09 19:35:50,085 [main] INFO .\src\test\resources\input\log4j.properties - user click on Bank Transfer radio button
+2022-06-09 19:35:51,031 [main] INFO .\src\test\resources\input\log4j.properties - User fill Bank information with below information
+2022-06-09 19:35:53,517 [main] INFO .\src\test\resources\input\log4j.properties - User click on Continue button
+2022-06-09 19:35:53,572 [main] INFO .\src\test\resources\input\log4j.properties - User can see a success message
+2022-06-09 19:35:54,125 [main] INFO .\src\test\resources\input\log4j.properties - the scenarioEdit your affiliate information from Cheque payment method to Bank Transfer PASSED
+2022-06-09 19:37:22,977 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioEdit your account Informationstarted
+2022-06-09 19:37:26,203 [main] INFO .\src\test\resources\input\log4j.properties - User click  on MyAccount
+2022-06-09 19:37:28,483 [main] INFO .\src\test\resources\input\log4j.properties - user click on Login
+2022-06-09 19:37:32,737 [main] INFO .\src\test\resources\input\log4j.properties - user enter username and password
+2022-06-09 19:37:35,632 [main] INFO .\src\test\resources\input\log4j.properties - user click on Login button
+2022-06-09 19:37:37,727 [main] INFO .\src\test\resources\input\log4j.properties - user should be logged into MyAccount dashboard
+2022-06-09 19:37:38,603 [main] INFO .\src\test\resources\input\log4j.properties - User click on ‘Edit your account information’ link
+2022-06-09 19:37:39,287 [main] INFO .\src\test\resources\input\log4j.properties - User modify below information
+2022-06-09 19:37:42,741 [main] INFO .\src\test\resources\input\log4j.properties - User click on continue3 button
+2022-06-09 19:37:42,797 [main] INFO .\src\test\resources\input\log4j.properties - User should see a message ‘Success: Your account has been successfully updated.
+2022-06-09 19:37:43,265 [main] INFO .\src\test\resources\input\log4j.properties - the scenarioEdit your account Information PASSED
+2022-06-13 15:43:45,468 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioUser verify all items are present in Desktops tabstarted
+2022-06-13 15:43:49,628 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-06-13 15:43:49,784 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Desktops tab
+2022-06-13 15:43:50,595 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Show all Desktops
+2022-06-13 15:43:50,639 [main] INFO .\src\test\resources\input\log4j.properties - HP Banneris present in this page
+2022-06-13 15:43:50,660 [main] INFO .\src\test\resources\input\log4j.properties - Desktopsis present in this page
+2022-06-13 15:43:50,677 [main] INFO .\src\test\resources\input\log4j.properties - Apple Cinema 30"is present in this page
+2022-06-13 15:43:50,694 [main] INFO .\src\test\resources\input\log4j.properties - Canon EOS 5D Camerais present in this page
+2022-06-13 15:43:50,711 [main] INFO .\src\test\resources\input\log4j.properties - HP LP3065is present in this page
+2022-06-13 15:43:50,728 [main] INFO .\src\test\resources\input\log4j.properties - HTC Touch HDis present in this page
+2022-06-13 15:43:50,744 [main] INFO .\src\test\resources\input\log4j.properties - iPhoneis present in this page
+2022-06-13 15:43:50,760 [main] INFO .\src\test\resources\input\log4j.properties - iPod Classicis present in this page
+2022-06-13 15:43:50,776 [main] INFO .\src\test\resources\input\log4j.properties - MacBookis present in this page
+2022-06-13 15:43:50,794 [main] INFO .\src\test\resources\input\log4j.properties - MacBook Airis present in this page
+2022-06-13 15:43:50,815 [main] INFO .\src\test\resources\input\log4j.properties - Palm Treo Prois present in this page
+2022-06-13 15:43:50,836 [main] INFO .\src\test\resources\input\log4j.properties - Product 8is present in this page
+2022-06-13 15:43:50,858 [main] INFO .\src\test\resources\input\log4j.properties - Samsung SyncMaster 941BWis present in this page
+2022-06-13 15:43:50,878 [main] INFO .\src\test\resources\input\log4j.properties - Sony VAIOis present in this page
+2022-06-13 15:43:51,291 [main] INFO .\src\test\resources\input\log4j.properties - the scenarioUser verify all items are present in Desktops tab PASSED
+2022-06-13 15:43:51,350 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioUser add HP LP 3065 from Destops tab to the cartstarted
+2022-06-13 15:43:53,880 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-06-13 15:43:54,026 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Desktops tab
+2022-06-13 15:43:54,520 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Show all Desktops
+2022-06-13 15:43:58,872 [main] INFO .\src\test\resources\input\log4j.properties - User click  ADD TO CART option on ‘HP LP3065’ item
+2022-06-13 15:44:04,009 [main] INFO .\src\test\resources\input\log4j.properties - User select quantity {int}
+2022-06-13 15:44:07,072 [main] INFO .\src\test\resources\input\log4j.properties - User click add to Cart button
+2022-06-13 15:44:10,111 [main] INFO .\src\test\resources\input\log4j.properties - User should see a message ‘Success: you have added HP LP {int} to your Shopping cart!’
+2022-06-13 15:44:14,333 [main] INFO .\src\test\resources\input\log4j.properties - the scenarioUser add HP LP 3065 from Destops tab to the cart PASSED
+2022-06-13 15:44:14,349 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioUser add Canon EOS 5D from Desktops tab to the cartstarted
+2022-06-13 15:44:16,593 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-06-13 15:44:16,737 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Desktops tab
+2022-06-13 15:44:17,216 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Show all Desktops
+2022-06-13 15:44:21,421 [main] INFO .\src\test\resources\input\log4j.properties - User click ADD TO CART option on ‘Canon EOS 5D’ item
+2022-06-13 15:44:24,480 [main] INFO .\src\test\resources\input\log4j.properties - User select color from dropdown ‘Red’
+2022-06-13 15:44:27,610 [main] INFO .\src\test\resources\input\log4j.properties - User select Canon quantity 1
+2022-06-13 15:44:30,689 [main] INFO .\src\test\resources\input\log4j.properties - User click Add to Cart button
+2022-06-13 15:44:35,735 [main] INFO .\src\test\resources\input\log4j.properties - User should see a message ‘Success: You have added Canon EOS 5D to your shopping cart!’
+2022-06-13 15:44:36,044 [main] INFO .\src\test\resources\input\log4j.properties - the scenarioUser add Canon EOS 5D from Desktops tab to the cart PASSED
+2022-06-13 15:44:36,060 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioUser add a review to Canon EOS 5D item in Desktops tabstarted
+2022-06-13 15:44:38,299 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-06-13 15:44:38,455 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Desktops tab
+2022-06-13 15:44:38,940 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Show all Desktops
+2022-06-13 15:44:43,168 [main] INFO .\src\test\resources\input\log4j.properties - User click on Canon EOS 5D item
+2022-06-13 15:44:46,229 [main] INFO .\src\test\resources\input\log4j.properties - User click on write a review link
+2022-06-13 15:44:49,451 [main] INFO .\src\test\resources\input\log4j.properties - user fill the review information with below information
+2022-06-13 15:44:52,528 [main] INFO .\src\test\resources\input\log4j.properties - User click on Continue Button
+2022-06-13 15:44:56,571 [main] INFO .\src\test\resources\input\log4j.properties - User should see a message with ‘Thank you for your review. It has been submitted to the webmaster for approval.”
+2022-06-13 15:44:56,843 [main] INFO .\src\test\resources\input\log4j.properties - the scenarioUser add a review to Canon EOS 5D item in Desktops tab PASSED
+2022-06-13 15:47:56,169 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioUser verify all items are present in Desktops tabstarted
+2022-06-13 15:47:58,911 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-06-13 15:47:59,087 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Desktops tab
+2022-06-13 15:47:59,647 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Show all Desktops
+2022-06-13 15:47:59,699 [main] INFO .\src\test\resources\input\log4j.properties - HP Banneris present in this page
+2022-06-13 15:47:59,726 [main] INFO .\src\test\resources\input\log4j.properties - Desktopsis present in this page
+2022-06-13 15:47:59,752 [main] INFO .\src\test\resources\input\log4j.properties - Apple Cinema 30"is present in this page
+2022-06-13 15:47:59,773 [main] INFO .\src\test\resources\input\log4j.properties - Canon EOS 5D Camerais present in this page
+2022-06-13 15:47:59,793 [main] INFO .\src\test\resources\input\log4j.properties - HP LP3065is present in this page
+2022-06-13 15:47:59,811 [main] INFO .\src\test\resources\input\log4j.properties - HTC Touch HDis present in this page
+2022-06-13 15:47:59,830 [main] INFO .\src\test\resources\input\log4j.properties - iPhoneis present in this page
+2022-06-13 15:47:59,847 [main] INFO .\src\test\resources\input\log4j.properties - iPod Classicis present in this page
+2022-06-13 15:47:59,866 [main] INFO .\src\test\resources\input\log4j.properties - MacBookis present in this page
+2022-06-13 15:47:59,882 [main] INFO .\src\test\resources\input\log4j.properties - MacBook Airis present in this page
+2022-06-13 15:47:59,898 [main] INFO .\src\test\resources\input\log4j.properties - Palm Treo Prois present in this page
+2022-06-13 15:47:59,917 [main] INFO .\src\test\resources\input\log4j.properties - Product 8is present in this page
+2022-06-13 15:47:59,934 [main] INFO .\src\test\resources\input\log4j.properties - Samsung SyncMaster 941BWis present in this page
+2022-06-13 15:47:59,948 [main] INFO .\src\test\resources\input\log4j.properties - Sony VAIOis present in this page
+2022-06-13 15:48:00,313 [main] INFO .\src\test\resources\input\log4j.properties - the scenarioUser verify all items are present in Desktops tab PASSED
+2022-06-13 15:48:31,725 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioUser add HP LP 3065 from Destops tab to the cartstarted
+2022-06-13 15:48:34,531 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-06-13 15:48:34,691 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Desktops tab
+2022-06-13 15:48:35,146 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Show all Desktops
+2022-06-13 15:48:36,272 [main] INFO .\src\test\resources\input\log4j.properties - User click  ADD TO CART option on ‘HP LP3065’ item
+2022-06-13 15:48:36,373 [main] INFO .\src\test\resources\input\log4j.properties - User select quantity {int}
+2022-06-13 15:48:36,430 [main] INFO .\src\test\resources\input\log4j.properties - User click add to Cart button
+2022-06-13 15:48:36,613 [main] INFO .\src\test\resources\input\log4j.properties - User should see a message ‘Success: you have added HP LP {int} to your Shopping cart!’
+2022-06-13 15:48:36,846 [main] INFO .\src\test\resources\input\log4j.properties - the scenarioUser add HP LP 3065 from Destops tab to the cart PASSED
+2022-06-13 15:49:04,019 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioUser add Canon EOS 5D from Desktops tab to the cartstarted
+2022-06-13 15:49:07,830 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-06-13 15:49:07,981 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Desktops tab
+2022-06-13 15:49:08,459 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Show all Desktops
+2022-06-13 15:49:09,652 [main] INFO .\src\test\resources\input\log4j.properties - User click ADD TO CART option on ‘Canon EOS 5D’ item
+2022-06-13 15:49:09,688 [main] INFO .\src\test\resources\input\log4j.properties - User select color from dropdown ‘Red’
+2022-06-13 15:49:09,804 [main] INFO .\src\test\resources\input\log4j.properties - User select Canon quantity 1
+2022-06-13 15:49:09,872 [main] INFO .\src\test\resources\input\log4j.properties - User click Add to Cart button
+2022-06-13 15:49:10,141 [main] INFO .\src\test\resources\input\log4j.properties - User should see a message ‘Success: You have added Canon EOS 5D to your shopping cart!’
+2022-06-13 15:49:10,384 [main] INFO .\src\test\resources\input\log4j.properties - the scenarioUser add Canon EOS 5D from Desktops tab to the cart PASSED
+2022-06-13 15:50:46,720 [main] INFO .\src\test\resources\input\log4j.properties - ScenarioUser add a review to Canon EOS 5D item in Desktops tabstarted
+2022-06-13 15:50:50,199 [main] INFO .\src\test\resources\input\log4j.properties - user is on Home Page
+2022-06-13 15:50:50,348 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Desktops tab
+2022-06-13 15:50:50,910 [main] INFO .\src\test\resources\input\log4j.properties - user clicked on Show all Desktops
+2022-06-13 15:50:52,099 [main] INFO .\src\test\resources\input\log4j.properties - User click on Canon EOS 5D item
+2022-06-13 15:50:52,155 [main] INFO .\src\test\resources\input\log4j.properties - User click on write a review link
+2022-06-13 15:50:52,502 [main] INFO .\src\test\resources\input\log4j.properties - user fill the review information with below information
+2022-06-13 15:50:52,547 [main] INFO .\src\test\resources\input\log4j.properties - User click on Continue Button
+2022-06-13 15:50:52,698 [main] INFO .\src\test\resources\input\log4j.properties - User should see a message with ‘Thank you for your review. It has been submitted to the webmaster for approval.”
+2022-06-13 15:50:56,933 [main] INFO .\src\test\resources\input\log4j.properties - the scenarioUser add a review to Canon EOS 5D item in Desktops tab PASSED
