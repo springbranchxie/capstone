@@ -1,5 +1,9 @@
 package step.definition;
 
+
+
+
+
 import core.Base;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -29,78 +33,79 @@ public class LaptopNoteBookStepDef extends Base {
 	}
 	//Scenario: Add and Remove a Mac book from Cart 
 	@When("User click on MacBook  item")
-	public void user_click_on_mac_book_item() throws InterruptedException {
-		Thread.sleep(3000);
+	public void user_click_on_mac_book_item()  {
+		
 		LaptopPage.clickOnMacBookItem();
 		logger.info("User click on MacBook  item");
 	    
 	}
 	
 	@When("User click on add to Cart button")
-	public void user_click_on_add_to_cart_button() throws InterruptedException {
-		Thread.sleep(3000);
+	public void user_click_on_add_to_cart_button()  {
+		
 		LaptopPage.clickonAddtoCart();
 		logger.info("User click on add to Cart button");
 		
 	}
 	
 	@Then("User should see a message ‘Success: You have added MacBook to your shopping cart!’")
-	public void user_should_see_a_message_success_you_have_added_mac_book_to_your_shopping_cart() throws InterruptedException {
-		Thread.sleep(3000);
+	public void user_should_see_a_message_success_you_have_added_mac_book_to_your_shopping_cart()  {
+		
 		LaptopPage.userSeeSuccessMess();
 		logger.info("User should see a message ‘Success: You have added MacBook to your shopping cart!’");
 	}
 	@Then("User should see ‘one item’ showed to the cart")
-	public void user_should_see_tem_s_showed_to_the_cart() throws InterruptedException {
-		Thread.sleep(3000);
+	public void user_should_see_tem_s_showed_to_the_cart()  {
+		
 		LaptopPage.CartShowOneItem();
 		logger.info("User should see ‘one item’ showed to the cart");
 	    
 	}
 	@Then("User click on cart option")
-	public void user_click_on_cart_option() throws InterruptedException {
-		Thread.sleep(3000);
+	public void user_click_on_cart_option()  {
+		
 		LaptopPage.clickonCartOption();
 		logger.info("User click on cart option");
 	    
 	}
 	@Then("user click on red X button to remove the item from cart")
-	public void user_click_on_red_x_button_to_remove_the_item_from_cart() throws InterruptedException {
-		Thread.sleep(3000);
+	public void user_click_on_red_x_button_to_remove_the_item_from_cart()  {
+		
 		LaptopPage.clickRemove();
 		logger.info("user click on red X button to remove the item from cart");
 	    
 	}
 	@Then("item should be removed and cart should show ‘no item’")
-	public void item_should_be_removed_and_cart_should_show_no_item() throws InterruptedException {
-		Thread.sleep(3000);
+	public void item_should_be_removed_and_cart_should_show_no_item()  {
+		
 		LaptopPage.cartShowNoItem();
 		logger.info("item should be removed and cart should show ‘no item’");
 	}
 //Scenario: Product Comparison
     @When("User click on product comparison icon on ‘MacBook’")
-     public void User_click_on_product_comparison_icon_on_MacBook() throws InterruptedException{
-    	Thread.sleep(2000);
+     public void User_click_on_product_comparison_icon_on_MacBook() {
+    
     	LaptopPage.ClickMacBookComparison();
     	logger.info("User click on product comparison icon on ‘MacBook’");
 	}
    
     @When("User click on product comparison icon on ‘MacBook Air")
-   public void User_click_on_product_comparison_icon_on_MacBookAir() throws InterruptedException{
-    	Thread.sleep(2000);
+   public void User_click_on_product_comparison_icon_on_MacBookAir() {
+    	
 	   LaptopPage.ClickMacBookAircomparison();
 	   logger.info("User click on product comparison icon on ‘MacBook Air");
    }
 	
     @Then("User should see a message ‘Success: You have added MacBook Air to your product comparison!’")
-    public void user_should_see_a_message_success_you_have_added_mac_book_air_to_your_product_comparison() throws InterruptedException  {
-     Thread.sleep(2000);
+    public void user_should_see_a_message_success_you_have_added_mac_book_air_to_your_product_comparison()  {
+     
     	LaptopPage.comparisonmessage();
     	logger.info("User should see a message ‘Success: You have added MacBook Air to your product comparison!’");
     }
    
     @When("User click on Product comparison link")
-    public void User_click_on_Product_comparison_link()  {
+    public void User_click_on_Product_comparison_link() throws InterruptedException {
+    	Thread.sleep(1000);
     	LaptopPage.clickcomparisonlink();
     	logger.info("User click on Product comparison link");
     }
@@ -114,6 +119,7 @@ public class LaptopNoteBookStepDef extends Base {
 //Scenario: Adding an item to Wish list
     @When("User click on heart icon to add ‘Sony VaIO’ laptop to wish list")
     public void user_click_on_heart_icon_to_add_sony_va_io_laptop_to_wish_list()  {
+    	
        LaptopPage.AddItemtoWishList();
        logger.info("User click on heart icon to add ‘Sony VaIO’ laptop to wish list");
     }

@@ -3,56 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 74013500,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user is on Retail home Page",
-            "match": {
-              "location": "step.definition.HomeStepDef.userIsOnRuser_is_on_retail_home_pageetailHomePage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 148640800,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user click on Desktops tab",
-            "match": {
-              "location": "step.definition.DesktopsStepDef.user_click_on_Destops_tab()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 560831100,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user click on Show all desktops",
-            "match": {
-              "location": "step.definition.DesktopsStepDef.user_click_on_Show_all_desktops()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-06-13T19:50:46.562Z",
+        "start_timestamp": "2022-06-14T21:21:32.332Z",
         "before": [
           {
             "result": {
-              "duration": 3493119400,
+              "duration": 3384934500,
               "status": "passed"
             },
             "match": {
@@ -60,14 +15,14 @@
             }
           }
         ],
-        "line": 38,
-        "name": "User add a review to Canon EOS 5D item in Desktops tab",
+        "line": 5,
+        "name": "User verify currency values change",
         "description": "",
-        "id": "desktops;user-add-a-review-to-canon-eos-5d-item-in-desktops-tab;;2",
+        "id": "home-page2;user-verify-currency-values-change",
         "after": [
           {
             "result": {
-              "duration": 4233801300,
+              "duration": 194800400,
               "status": "passed"
             },
             "match": {
@@ -80,83 +35,124 @@
         "steps": [
           {
             "result": {
-              "duration": 1188156500,
+              "duration": 89114000,
               "status": "passed"
             },
-            "line": 30,
-            "name": "User click on Canon EOS 5D item",
+            "line": 6,
+            "name": "User click on Currency",
             "match": {
-              "location": "step.definition.DesktopsStepDef.user_click_on_canon_eos_5d_item()"
+              "location": "step.definition.HomePage2StepDef.user_click_on_currency()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 447042500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Chose Euro from dropdown",
+            "match": {
+              "location": "step.definition.HomePage2StepDef.user_chose_euro_from_dropdown()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 54633700,
+              "duration": 64084200,
               "status": "passed"
             },
-            "line": 31,
-            "name": "User click on write a review link",
+            "line": 8,
+            "name": "currency value should change to Euro",
             "match": {
-              "location": "step.definition.DesktopsStepDef.user_click_on_write_a_review_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 346930000,
-              "status": "passed"
-            },
-            "line": 32,
-            "name": "user fill the review information with below information",
-            "match": {
-              "location": "step.definition.DesktopsStepDef.user_fill_the_review_information_with_below_information()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 43471200,
-              "status": "passed"
-            },
-            "line": 33,
-            "name": "User click on Continue Button",
-            "match": {
-              "location": "step.definition.DesktopsStepDef.user_click_on_continue_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 146857200,
-              "status": "passed"
-            },
-            "line": 34,
-            "name": "User should see a message with ‘Thank you for your review. It has been submitted to the webmaster for approval.”",
-            "match": {
-              "location": "step.definition.DesktopsStepDef.user_should_see_a_message_with_thank_you_for_your_review_it_has_been_submitted_to_the_webmaster_for_approval()"
+              "location": "step.definition.HomePage2StepDef.currency_value_should_change_to_euro()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@TestAllDesktops"
+            "name": "@Testhomepage2"
           },
           {
-            "name": "@AddReview"
+            "name": "@verifyCurrency"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-14T21:21:36.647Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2483087300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definition.Initializer.beforeHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "User empty Shopping cart message displays",
+        "description": "",
+        "id": "home-page2;user-empty-shopping-cart-message-displays",
+        "after": [
+          {
+            "result": {
+              "duration": 183489600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step.definition.Initializer.afterHooks(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 489714700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click on shopping cart",
+            "match": {
+              "location": "step.definition.HomePage2StepDef.user_click_on_shopping_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44093000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "“Your shopping cart is empty!” message should display",
+            "match": {
+              "location": "step.definition.HomePage2StepDef.your_shopping_cart_is_empty_message_should_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Testhomepage2"
+          },
+          {
+            "name": "@emptyshoppingcart"
           }
         ]
       }
     ],
-    "name": "Desktops",
+    "name": "Home page2",
     "description": "",
-    "id": "desktops",
+    "id": "home-page2",
     "keyword": "Feature",
-    "uri": "classpath:feature/Desktops.feature",
+    "uri": "classpath:feature/HomePage2.feature",
     "tags": [
       {
-        "name": "@TestAllDesktops",
+        "name": "@Testhomepage2",
         "type": "Tag",
         "location": {
           "line": 1,

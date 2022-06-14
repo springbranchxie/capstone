@@ -19,28 +19,28 @@ public class RetailStepDef extends Base {
  }
  //Background
  @When("user click on Login")
- public void user_click_on_login() throws InterruptedException {
-	 Thread.sleep(2000);
+ public void user_click_on_login()  {
+	
 	 retailpage.ClickonLogin();
 	 logger.info("user click on Login");
  }
  @When("user enter username and password")
- public void user_enter_username_and_password() throws InterruptedException {
-	 Thread.sleep(2000);
+ public void user_enter_username_and_password()  {
+
 	 retailpage.UserInputEmail("John1@tekschool.us");
-	 Thread.sleep(2000);
+	
 	 retailpage.UserInputPassword("JamesBond007");
 	 logger.info("user enter username and password");
  }
  @When("user click on Login button")
- public void user_click_on_login_button() throws InterruptedException {
-	 Thread.sleep(2000);
+ public void user_click_on_login_button()  {
+	
 	 retailpage.UserClickonLoginButton();
 	 logger.info("user click on Login button");
  }
  @Then("user should be logged into MyAccount dashboard")
- public void user_should_be_logged_into_my_account_dashboard() throws InterruptedException {
-	 Thread.sleep(2000);
+ public void user_should_be_logged_into_my_account_dashboard() {
+
 	 retailpage.LoginDashBoard();
 	 logger.info("user should be logged into MyAccount dashboard");
  }
@@ -81,8 +81,8 @@ public class RetailStepDef extends Base {
 
  //Scenario: Edit your affiliate information from Cheque payment method to Bank Transfer
  @When("User click on ‘Edit your affiliate informationlink")
- public void user_click_on_edit_your_affiliate_informationlink() throws InterruptedException {
-	 Thread.sleep(2000);
+ public void user_click_on_edit_your_affiliate_informationlink()  {
+	
      retailpage.EdityourAffiliate();
      logger.info("User click on ‘Edit your affiliate informationlink");
  }
@@ -103,8 +103,8 @@ public class RetailStepDef extends Base {
  
  }
  @When("User click on Continue button")
- public void user_click_on_continue2_button() throws InterruptedException {
-	 Thread.sleep(2000);
+ public void user_click_on_continue2_button()  {
+	
 	 retailpage.clickonContinue2Button();
 	 logger.info("User click on Continue button");
      
@@ -123,7 +123,7 @@ public class RetailStepDef extends Base {
      logger.info("User click on ‘Edit your account information’ link");
  }
  @When("User modify below information")
- public void user_modify_below_information(io.cucumber.datatable.DataTable dataTable) {
+ public void user_modify_below_information(DataTable dataTable) {
 	 List<Map<String,String>> information2=dataTable.asMaps(String.class,String.class);
 	 retailpage.FirstnameField(information2.get(0).get("firstname"));
 	 retailpage.LastnameField(information2.get(0).get("lastName"));
@@ -132,8 +132,7 @@ public class RetailStepDef extends Base {
 	 logger.info("User modify below information");
 	 }
  @When("User click on continue3 button")
- public void user_click_on_continue3_button() throws InterruptedException {
-	Thread.sleep(3000);
+ public void user_click_on_continue3_button()  {
      retailpage.ClickOnContinue3Button();
      logger.info("User click on continue3 button");
  }

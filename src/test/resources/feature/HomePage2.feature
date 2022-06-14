@@ -1,3 +1,4 @@
+@Testhomepage2
 Feature:Home page2
  
 @verifyCurrency

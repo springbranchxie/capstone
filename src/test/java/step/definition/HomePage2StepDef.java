@@ -9,21 +9,21 @@ public class HomePage2StepDef extends Base {
 	
 	//Scenario: User verify currency values change
 	@When("User click on Currency")
-	public void user_click_on_currency() throws InterruptedException {
-		Thread.sleep(2000);
+	public void user_click_on_currency() {
+		
 	    homepage2.ClickOnCurrency();
 	    logger.info("User click on Currency");
 	}
 	@When("User Chose Euro from dropdown")
-	public void user_chose_euro_from_dropdown() throws InterruptedException {
-		Thread.sleep(2000);
+	public void user_chose_euro_from_dropdown()  {
+		
 		homepage2.ChoseEuro();
 		logger.info("User Chose Euro from dropdown");
 	   
 	    }
 	@Then("currency value should change to Euro")
-	public void currency_value_should_change_to_euro() throws InterruptedException {
-		Thread.sleep(2000);
+	public void currency_value_should_change_to_euro() {
+	
 		homepage2.iscurrencyChange();
 		logger.info("currency value should change to Euro");
 	}
